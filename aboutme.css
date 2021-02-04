@@ -1,0 +1,44 @@
+.navbar-dark,bg-dark {
+    position: fixed;
+    width:100%;
+}
+
+
+main {
+    background-image :url(Images/sbgi.jpeg),linear-gradient(#0d10b8,#dbd03573);
+    background-blend-mode: luminosity;
+    min-height:115vh;
+    background-size: cover,no-repeat;
+}
+
+
+
+.contents {
+    display: grid;
+    padding: 30vh 5vw;
+    grid-template-columns: 90fr 90fr 90fr 90fr;
+    gap:50px;
+}
+
+.works {
+    background:#0bd;
+    color:#fff;
+    padding:10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;  
+    position: relative;
+    background:rgb(10, 10, 10);
+    text-align: center;
+    padding:13px 0;
+}
+
+footer {
+    color:rgb(196, 196, 196);
+    font-size:0.875rem;
+    position: absolute,fixed;
+    bottom: 0; 
+}
