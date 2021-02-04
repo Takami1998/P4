@@ -4,7 +4,7 @@
 }
 
 main {
-    background-image :url(Images/sbgi.jpeg),linear-gradient(#7fe6e9,#f579f5);
+    background-image :url(https://Takami1998.github.io/P4/sbgi.jpeg),linear-gradient(#7fe6e9,#f579f5);
     background-blend-mode: luminosity;
     min-height:115vh;
     background-size: cover,no-repeat;
